@@ -55,22 +55,35 @@ header > div {
     width: 15px;
     position: absolute;
     left: 100px;
-    top: 89px
+    top: 85px
   }
 .searchButton{
   background-color: #fb3e44;
-  height: 35px;  
+  height: 30px;  
   color: white
 }
 .joinButton{
   width: 50px;
   height: 35px;
-  margin-right: 0px
+  margin-right: 0px;
+  background-color: white;
+  padding: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border:1px solid gray; 
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(6, 6, 116);
+
 }
 .loginButton{
   width: 50px;
   height: 35px;
-  margin-left: 0px
+  margin-left: 0px;
+  background-color: white;
+  color: rgb(6, 6, 116);
+  font-size: 12px;
+  text-decoration: none;
 }
 
 #section1{
@@ -187,6 +200,7 @@ section > div{
 #inputSearch{
     padding-left: 30px;
     width: 1100px;
-    color: rgba(0,0,0,.05);
+    color: rgb(32, 32, 32);
     height: 30px;  
+   
   }
